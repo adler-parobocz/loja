@@ -26,3 +26,16 @@ DB_PASSWORD=passwd
 - acessar
 http://localhost:8003/
 
+# O que foi feito até agora
+- Atributos de produto
+ Criado a estrutura para gerar o visualizar, editar, cadastrar e excluir
+ - Models para interação entre os atributos e os produtos
+ - Controllers para gerenciar as atividades
+
+- Produtos
+Criado a estrutura para gerar o visualizar, editar, cadastrar e excluir
+ - Models para interação entre os atributos e os produtos
+ - Controllers para gerenciar as atividades
+
+ - Estoque
+ Iniciado a construção, e em andamento
