@@ -5,6 +5,9 @@ use App\Http\Controllers\Products;
 use App\Http\Controllers\Attributes;
 use App\Http\Controllers\Stock;
 
+Route::get('/', function(){
+    return redirect('/produtos');
+});
 Route::get('/produtos', [Products::class, 'index']);
 Route::get('/atributos', [Attributes::class, 'index']);
 Route::post('/atributos', [Attributes::class, 'store']);
